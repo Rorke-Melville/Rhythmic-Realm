@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Electronic-Beats/static/css/main.c75aada7.chunk.css",
+    "main.js": "/Electronic-Beats/static/js/main.b4a32c0c.chunk.js",
+    "main.js.map": "/Electronic-Beats/static/js/main.b4a32c0c.chunk.js.map",
+    "runtime~main.js": "/Electronic-Beats/static/js/runtime~main.89d72779.js",
+    "runtime~main.js.map": "/Electronic-Beats/static/js/runtime~main.89d72779.js.map",
+    "static/js/2.07b41d29.chunk.js": "/Electronic-Beats/static/js/2.07b41d29.chunk.js",
+    "static/js/2.07b41d29.chunk.js.map": "/Electronic-Beats/static/js/2.07b41d29.chunk.js.map",
+    "index.html": "/Electronic-Beats/index.html",
+    "precache-manifest.237aac3004271a1ae681306e0ed5b3b5.js": "/Electronic-Beats/precache-manifest.237aac3004271a1ae681306e0ed5b3b5.js",
+    "service-worker.js": "/Electronic-Beats/service-worker.js",
+    "static/css/main.c75aada7.chunk.css.map": "/Electronic-Beats/static/css/main.c75aada7.chunk.css.map"
+  }
+}
