@@ -1,0 +1,72 @@
+.offcanvas {
+    background: linear-gradient(135deg, #000, #1a1a1a);
+    border: 1px solid #ff0000 !important;
+    color: #ff0000 !important;
+    box-shadow: 5px 5px 5px #ff0000;
+  }
+  
+  .offcanvas-header {
+    border-bottom: 0.5px solid #ff0000 !important;
+    box-shadow: 5px 5px 5px #ff0000;
+  }
+  
+  .offcanvas-title {
+    color: #ff0000;
+    font-family: 'Impact', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+    -0.5px -0.5px 0 #620075, 
+    0.5px -0.5px 0 #620075,  
+    -0.5px 0.5px 0 #620075,  
+    0.5px 0.5px 0 #620075,
+    2px 2px 0 #800000;
+  }
+  
+  .offcanvas-body {
+    padding: 0;
+  }
+  
+  .offcanvas-li {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    transition: padding 0.3s ease-in-out;
+  }
+  
+  .offcanvas-li:hover {
+    border-left: 2px solid #620075;
+    border-bottom: 2px solid #620075;
+    padding: 10px 10px 10px 20px;
+  }
+  
+  .offcanvas-li a {
+    color: #ff0000;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 
+    -0.5px -0.5px 0 #620075, 
+    0.5px -0.5px 0 #620075,  
+    -0.5px 0.5px 0 #620075,  
+    0.5px 0.5px 0 #620075,
+    2px 2px 0 #800000;
+  }
+  
+  .offcanvas-li a:hover {
+    color: #620075;
+    text-shadow: 
+    -0.5px -0.5px 0 #620075, 
+    0.5px -0.5px 0 #620075,  
+    -0.5px 0.5px 0 #620075,  
+    0.5px 0.5px 0 #620075,
+    2px 2px 0 #800000;
+  }
+  
+  .btn-close {
+    filter: invert(1) hue-rotate(0deg) brightness(2);
+    color: #ff0000;
+  }
+  .btn-close:hover {
+    filter: invert(1) hue-rotate(0deg) brightness(1.5);
+    color: #620075;
+  }

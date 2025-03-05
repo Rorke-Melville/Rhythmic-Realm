@@ -1,38 +1,122 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
   min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.site-title {
+  font-size: 4rem;
+  z-index: 2;
+  font-weight: 900; /* Extra bold for comic style */
+  color: #ff0000; /* Main red color */
+  position: relative;
+  display: inline-block;
+  cursor: default;
+  font-family: 'Impact', Arial, sans-serif; /* Comic book font */
+  text-transform: uppercase; /* Common in comics */
+  letter-spacing: 6px; /* Slight gap between letters */
+  clip-path: polygon(0 0, 0 100%, 0 100%, 0 0); /* Start fully clipped */
+  animation: draw 3s ease forwards;
+  text-shadow: 
+    -1.5px -1.5px 0 #620075, /* White outline top-left */
+    1.5px -1.5px 0 #620075,  /* White outline top-right */
+    -1.5px 1.5px 0 #620075,  /* White outline bottom-left */
+    1.5px 1.5px 0 #620075,   /* White outline bottom-right */
+    /* 3D extrusion shadows */
+    2px 2px 0 #800000,  /* Darker red for depth */
+    3px 3px 0 #800000,
+    4px 4px 0 #800000,
+    5px 5px 0 #800000,
+    6px 6px 0 #800000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes draw {
   to {
-    transform: rotate(360deg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Reveal full text */
   }
+}
+
+main {
+  padding: 20px;
+}
+
+.blog-posts {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #fff;
+  margin: 15px 0;
+}
+
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-preview {
+  background: #1a1a1a;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.post-preview h3 {
+  color: #3498db;
+  margin: 0 0 10px;
+}
+
+.post-preview p {
+  color: #ccc;
+  margin: 0 0 10px;
+}
+
+.read-more {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset anchor targets by navbar height */
+section[id] {
+  scroll-margin-top: 100px; /* Adjust this value to match navbar height */
+}
+
+.App-footer {
+  color: #ff0000;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Impact', Arial, sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 
+    -0.5px -0.5px 0 #620075, 
+    0.5px -0.5px 0 #620075,  
+    -0.5px 0.5px 0 #620075,  
+    0.5px 0.5px 0 #620075,
+    2px 2px 0 #800000;
+  border-top: 2px solid #620075;
 }

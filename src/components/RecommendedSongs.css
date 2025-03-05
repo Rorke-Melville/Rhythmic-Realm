@@ -1,0 +1,69 @@
+.recommended-songs {
+    margin: 40px 0;
+    color: #fff;
+  }
+  
+  .recommended-songs h2 {
+    color: #ff0000; /* Main red color */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Smaller than Electronic Beats */
+    font-weight: 900; /* Extra bold */
+    font-family: 'Impact', Arial, sans-serif; /* Comic book font */
+    text-transform: uppercase; /* Common in comics */
+    letter-spacing: 3px; /* Slight gap between letters */
+    text-shadow: 
+      -1.5px -1.5px 0 #620075, 
+      1.5px -1.5px 0 #620075,  
+      -1.5px 1.5px 0 #620075,  
+      1.5px 1.5px 0 #620075,   
+      /* 3D extrusion shadows */
+      2px 2px 0 #800000,  /* Darker red for depth */
+      3px 3px 0 #800000,
+      4px 4px 0 #800000,
+      5px 5px 0 #800000,
+      6px 6px 0 #800000;
+  }
+  
+  .genre-selector {
+    margin-bottom: 20px;
+  }
+  
+  .genre-selector label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .genre-selector select {
+    padding: 8px;
+    font-size: 1.2rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .genre-selector select:focus {
+    outline: none;
+    border-color: #ff0000; /* Match heading red */
+  }
+  
+  .tracks-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 tracks in one row */
+    gap: 20px;
+    max-width: 1400px; /* Increased to fit 4 tracks comfortably */
+    margin: 0 auto;
+  }
+  
+  .spotify-track {
+    width: 100%;
+    height: 352px;
+  }
+  
+  /* Responsive adjustment */
+  @media (max-width: 1024px) {
+    .tracks-container {
+      grid-template-columns: 1fr; /* Stack vertically on smaller screens */
+    }
+  }

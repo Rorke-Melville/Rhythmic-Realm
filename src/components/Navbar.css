@@ -1,0 +1,91 @@
+.custom-navbar {
+  background-color: #470813;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+
+.custom-navbar h2 {
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: 'Impact', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 
+  -1.5px -1.5px 0 #620075, 
+  1.5px -1.5px 0 #620075,  
+  -1.5px 1.5px 0 #620075,  
+  1.5px 1.5px 0 #620075,
+    2px 2px 0 #800000,
+    3px 3px 0 #800000,
+    4px 4px 0 #800000,
+    5px 5px 0 #800000,
+    6px 6px 0 #800000;
+}
+
+.custom-navbar.hidden {
+  opacity: 0;
+}
+
+.custom-navbar.visible {
+  opacity: 1;
+  animation: slideDown 0.5s ease forwards;
+}
+
+.custom-navbar-brand {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer; /* Ensure cursor changes to pointer */
+}
+
+.custom-navbar-brand img {
+  height: 55px;
+  width: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: transform 0.5s ease;
+}
+
+.custom-navbar-brand img.rotated {
+  transform: rotate(90deg);
+}
+
+.custom-navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-navbar-menu li {
+  margin-left: 20px;
+}
+
+.custom-navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.custom-navbar-menu a:hover {
+  color: #d9ff00;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,175 @@
+.synth-puzzle-courses {
+    margin: 40px 0;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .synth-title {
+    color: #ff0000; /* Bright red replacing neon magenta */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Impact', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 
+    -2px -2px 0 #620075, 
+    2px -2px 0 #620075,  
+    -2px 2px 0 #620075,  
+    2px 2px 0 #620075,
+    2px 2px 0 #800000,
+    3px 3px 0 #800000,
+    4px 4px 0 #800000,
+    5px 5px 0 #800000,
+    6px 6px 0 #800000;
+    text-align: center;
+  }
+  
+  .synth-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .synth-module {
+    width: 150px;
+    height: 200px;
+    background: #333;
+    border: 2px solid #620075; /* Red border */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .synth-module:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff0000; /* Red glow */
+  }
+  
+  .synth-module h3 {
+    color: #ff0000; /* Red text */
+    font-size: 1.1rem;
+    margin: 0;
+    text-shadow: 
+    -2px -2px 0 #620075,
+    2px -2px 0 #620075,
+    -2px 2px 0 #620075, 
+    2px 2px 0 #620075,
+    2px 2px 0 #800000,
+    3px 3px 0 #800000,
+    4px 4px 0 #800000,
+    5px 5px 0 #800000,
+    6px 6px 0 #800000;
+  }
+  
+  .synth-module p {
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+  
+  .synth-icon {
+    font-size: 20px;
+    color: #ff0000; /* Deep purple replacing neon orange */
+    border: 2px solid #620075;
+    border-radius: 50%;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .synth-cable-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .synth-cable-wrapper {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    cursor: move;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .synth-cable-wrapper.dragging {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #620075; /* Purple glow */
+  }
+  
+  .synth-cable-icon {
+    font-size: 30px;
+    color: #620075; /* Deep purple */
+  }
+  
+  .synth-instruction {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-shadow: 0 0 5px #ff0000; /* Red glow */
+  }
+  
+  .synth-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .synth-details {
+    background: #1a1a1a;
+    padding: 20px;
+    border: 2px solid #620075; /* Red border */
+    border-radius: 10px;
+    color: #fff;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px #ff0000;
+  }
+  
+  .synth-details h3 {
+    color: #ff0000; /* Red text */
+    margin-bottom: 15px;
+    text-shadow: 
+    -1px -1px 0 #620075,
+    1px -1px 0 #620075,
+    -1px 1px 0 #620075, 
+    1px 1px 0 #620075,
+    1px 1px 0 #800000,
+    1.5px 1.5px 0 #800000,
+    2px 2px 0 #800000,
+    2.5px 2.5px 0 #800000,
+    3px 3px 0 #800000;
+  }
+  
+  .synth-details p {
+    margin: 5px 0;
+  }
+  
+  .synth-details button {
+    background: #620075; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .synth-details button:hover {
+    background: #ff0000; 
+    color: #fff;
+  }
