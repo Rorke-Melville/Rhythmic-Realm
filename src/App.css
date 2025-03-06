@@ -22,23 +22,23 @@
 .site-title {
   font-size: 4rem;
   z-index: 2;
-  font-weight: 900; /* Extra bold for comic style */
-  color: #ff0000; /* Main red color */
+  font-weight: 900; 
+  color: #ff0000; 
   position: relative;
   display: inline-block;
   cursor: default;
-  font-family: 'Impact', Arial, sans-serif; /* Comic book font */
-  text-transform: uppercase; /* Common in comics */
-  letter-spacing: 6px; /* Slight gap between letters */
-  clip-path: polygon(0 0, 0 100%, 0 100%, 0 0); /* Start fully clipped */
+  font-family: 'Impact', Arial, sans-serif; 
+  text-transform: uppercase; 
+  letter-spacing: 6px; 
+  clip-path: polygon(0 0, 0 100%, 0 100%, 0 0); 
   animation: draw 3s ease forwards;
   text-shadow: 
-    -2px -2px 0 #620075, /* White outline top-left */
-    2px -2px 0 #620075,  /* White outline top-right */
-    -2px 2px 0 #620075,  /* White outline bottom-left */
-    2px 2px 0 #620075,   /* White outline bottom-right */
-    /* 3D extrusion shadows */
-    2px 2px 0 #800000,  /* Darker red for depth */
+    -2px -2px 0 #620075, 
+    2px -2px 0 #620075,  
+    -2px 2px 0 #620075, 
+    2px 2px 0 #620075,   
+   
+    2px 2px 0 #800000,  
     3px 3px 0 #800000,
     4px 4px 0 #800000,
     5px 5px 0 #800000,
@@ -47,7 +47,7 @@
 
 @keyframes draw {
   to {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Reveal full text */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
   }
 }
 

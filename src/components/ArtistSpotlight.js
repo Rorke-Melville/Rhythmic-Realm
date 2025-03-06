@@ -52,7 +52,6 @@ function ArtistSpotlight() {
                 <div className="social-links">
                   <a href={artist.soundcloud} target="_blank" rel="noopener noreferrer">SoundCloud</a>
                   <a href={artist.spotify} target="_blank" rel="noopener noreferrer">Spotify</a>
-                  <a href={artist.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
               </div>
             </div>

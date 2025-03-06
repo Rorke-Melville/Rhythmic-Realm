@@ -4,20 +4,19 @@
   }
   
   .recommended-songs h2 {
-    color: #ff0000; /* Main red color */
+    color: #ff0000; 
     margin-bottom: 20px;
-    font-size: 2rem; /* Smaller than Electronic Beats */
-    font-weight: 900; /* Extra bold */
-    font-family: 'Impact', Arial, sans-serif; /* Comic book font */
-    text-transform: uppercase; /* Common in comics */
-    letter-spacing: 3px; /* Slight gap between letters */
+    font-size: 2rem; 
+    font-weight: 900; 
+    font-family: 'Impact', Arial, sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
     text-shadow: 
       -1.5px -1.5px 0 #620075, 
       1.5px -1.5px 0 #620075,  
       -1.5px 1.5px 0 #620075,  
       1.5px 1.5px 0 #620075,   
-      /* 3D extrusion shadows */
-      2px 2px 0 #800000,  /* Darker red for depth */
+      2px 2px 0 #800000,  
       3px 3px 0 #800000,
       4px 4px 0 #800000,
       5px 5px 0 #800000,
@@ -45,14 +44,14 @@
   
   .genre-selector select:focus {
     outline: none;
-    border-color: #ff0000; /* Match heading red */
+    border-color: #ff0000; 
   }
   
   .tracks-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 tracks in one row */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
-    max-width: 1400px; /* Increased to fit 4 tracks comfortably */
+    max-width: 1400px; 
     margin: 0 auto;
   }
   
@@ -64,6 +63,6 @@
   /* Responsive adjustment */
   @media (max-width: 1024px) {
     .tracks-container {
-      grid-template-columns: 1fr; /* Stack vertically on smaller screens */
+      grid-template-columns: 1fr; 
     }
   }

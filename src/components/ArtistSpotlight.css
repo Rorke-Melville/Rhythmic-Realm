@@ -6,7 +6,7 @@
 }
 
 .spotlight-title {
-  color: #ff0000; /* Bright red from your palette */
+  color: #ff0000; 
   margin-bottom: 20px;
   font-size: 2rem;
   font-weight: 900;
@@ -33,36 +33,36 @@
 
 .spotlight-track {
   display: flex;
-  width: 200%; /* Double for seamless loop */
+  width: 200%; 
   animation: scrollRightToLeft 20s linear infinite;
 }
 
 .spotlight-track:hover {
-  animation-play-state: paused; /* Pause on hover */
+  animation-play-state: paused; 
 }
 
 .spotlight-card {
   width: 250px;
   height: 350px;
-  background: rgba(98, 0, 117, 0.1); /* Deep purple semi-transparent */
-  border: 2px solid #ff0000; /* Red border */
+  background: rgba(98, 0, 117, 0.1); 
+  border: 2px solid #ff0000; 
   border-radius: 10px;
   margin: 10px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.5s ease;
   cursor: pointer;
-  perspective: 1000px; /* 3D effect */
-  flex-shrink: 0; /* Prevent shrinking in flex */
+  perspective: 1000px; 
+  flex-shrink: 0; 
 }
 
 .spotlight-card:hover:not(.flipped) {
-  transform: rotateY(20deg) rotateX(10deg); /* 3D tilt on hover */
-  box-shadow: 0 0 25px #620075; /* Red glow */
+  transform: rotateY(20deg) rotateX(10deg); 
+  box-shadow: 0 0 25px #620075; 
 }
 
 .spotlight-card.flipped {
-  transform: rotateY(180deg); /* Flip on click */
+  transform: rotateY(180deg); 
 }
 
 .card-front,
@@ -81,12 +81,12 @@
 }
 
 .card-front {
-  background: rgba(98, 0, 117, 0.2); /* Purple tint */
+  background: rgba(98, 0, 117, 0.2); 
 }
 
 .card-back {
-  background: rgba(255, 0, 0, 0.2); /* Red tint */
-  transform: rotateY(180deg); /* Back side rotated */
+  background: rgba(255, 0, 0, 0.2); 
+  transform: rotateY(180deg); 
 }
 
 .artist-image {
@@ -95,13 +95,13 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
-  border: 2px solid #620075; /* Purple border */
+  border: 2px solid #620075; 
 }
 
 .spotlight-card h3 {
   font-size: 1.2rem;
   margin: 0 0 10px;
-  text-shadow: 0 0 5px #ff0000; /* Red glow */
+  text-shadow: 0 0 5px #ff0000; 
 }
 
 .spotlight-card p {
@@ -116,7 +116,8 @@
 }
 
 .social-links a {
-  color: #620075; /* Purple links */
+  color: #ff0000; 
+  background-color: #620075;
   text-decoration: none;
   font-weight: bold;
   padding: 5px 10px;
@@ -126,11 +127,11 @@
 }
 
 .social-links a:hover {
-  background: #ff0000; /* Red background on hover */
+  background: #ff0000; 
   color: #fff;
 }
 
 @keyframes scrollRightToLeft {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* Moves half the track width */
+  100% { transform: translateX(-50%); } 
 }

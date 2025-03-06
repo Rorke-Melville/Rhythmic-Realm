@@ -5,7 +5,7 @@
   }
   
   .synth-title {
-    color: #ff0000; /* Bright red replacing neon magenta */
+    color: #ff0000; 
     margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 900;
@@ -36,7 +36,7 @@
     width: 150px;
     height: 200px;
     background: #333;
-    border: 2px solid #620075; /* Red border */
+    border: 2px solid #620075; 
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -49,11 +49,11 @@
   
   .synth-module:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px #ff0000; /* Red glow */
+    box-shadow: 0 0 15px #ff0000; 
   }
   
   .synth-module h3 {
-    color: #ff0000; /* Red text */
+    color: #ff0000; 
     font-size: 1.1rem;
     margin: 0;
     text-shadow: 
@@ -75,7 +75,7 @@
   
   .synth-icon {
     font-size: 20px;
-    color: #ff0000; /* Deep purple replacing neon orange */
+    color: #ff0000; 
     border: 2px solid #620075;
     border-radius: 50%;
     padding: 2px;
@@ -101,19 +101,19 @@
   
   .synth-cable-wrapper.dragging {
     transform: scale(1.2);
-    box-shadow: 0 0 10px #620075; /* Purple glow */
+    box-shadow: 0 0 10px #620075; 
   }
   
   .synth-cable-icon {
     font-size: 30px;
-    color: #620075; /* Deep purple */
+    color: #620075; 
   }
   
   .synth-instruction {
     color: #fff;
     font-size: 1rem;
     margin-top: 10px;
-    text-shadow: 0 0 5px #ff0000; /* Red glow */
+    text-shadow: 0 0 5px #ff0000; 
   }
   
   .synth-overlay {
@@ -132,7 +132,7 @@
   .synth-details {
     background: #1a1a1a;
     padding: 20px;
-    border: 2px solid #620075; /* Red border */
+    border: 2px solid #620075; 
     border-radius: 10px;
     color: #fff;
     max-width: 400px;
@@ -141,7 +141,7 @@
   }
   
   .synth-details h3 {
-    color: #ff0000; /* Red text */
+    color: #ff0000; 
     margin-bottom: 15px;
     text-shadow: 
     -1px -1px 0 #620075,
