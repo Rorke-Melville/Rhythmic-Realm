@@ -103,7 +103,7 @@ function ClubRecommendations() {
 
     // Markers as Font Awesome fa-monument sprite
     const markerTextureLoader = new THREE.TextureLoader();
-    const markerTexture = markerTextureLoader.load('/flag-solid.png');
+    const markerTexture = markerTextureLoader.load('./flag-solid.png');
     markerTexture.colorSpace = THREE.SRGBColorSpace;
     const markerMaterial = new THREE.SpriteMaterial({ map: markerTexture, color: 0xff0000 });
     const markers = clubs.map(club => {
