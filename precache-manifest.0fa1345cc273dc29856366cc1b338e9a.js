@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9247da0feb0ae6564bf5d411226106d5",
+    "revision": "7c3f6288d08c5fe07cb80b0c0841fceb",
     "url": "/Rhythmic-Realm/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Rhythmic-Realm/static/css/2.4e461ce0.chunk.css"
   },
   {
-    "revision": "9c9bf5f9184424171a22",
+    "revision": "ca9035d1e1c0f7fcfcb8",
     "url": "/Rhythmic-Realm/static/css/main.55538e7b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Rhythmic-Realm/static/js/2.81129375.chunk.js"
   },
   {
-    "revision": "9c9bf5f9184424171a22",
-    "url": "/Rhythmic-Realm/static/js/main.0485e33e.chunk.js"
+    "revision": "ca9035d1e1c0f7fcfcb8",
+    "url": "/Rhythmic-Realm/static/js/main.c94a807f.chunk.js"
   },
   {
     "revision": "6933bffc4c9e89838a59",
