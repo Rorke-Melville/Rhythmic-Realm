@@ -9,8 +9,8 @@ Rhythmic Realm is your one-stop spot to explore electronic music and club cultur
 - **Recommended Songs**: A curated list of banging tracks with embedded YouTube vibes to get your head nodding.
 - **Festival Recommendations**: Hot picks for electronic music festivals to plan your next rave adventure.
 - **Artist Spotlight**: Shoutouts to dope artists lighting up the scene.
-- **Synth Puzzle Course**: A quirky, interactive way to mess with synth sounds—because why not?
-- **Club Recommendations**: An dope 3D globe showcasing top clubs worldwide, complete with vibes and DJ highlights.
+- **Synth Puzzle Course**: A quirky, interactive way to sign up for courses
+- **Club Recommendations**: A dope 3D globe showcasing top clubs worldwide, complete with vibes and DJ highlights.
 
 ## Features
 
