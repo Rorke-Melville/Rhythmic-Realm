@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Rhythmic-Realm/precache-manifest.b6572483ebd3fc5ce39faa6cd559ad25.js"
+  "/Rhythmic-Realm/precache-manifest.a92a61813cf234ca93892c2024314e41.js"
 );
 
 self.addEventListener('message', (event) => {
