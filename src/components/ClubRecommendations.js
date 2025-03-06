@@ -239,7 +239,7 @@ function ClubRecommendations() {
             <h3>{selectedClub.name}</h3>
             <p><strong>Location:</strong> {selectedClub.city}, {selectedClub.country}</p>
             <p><strong>Vibe:</strong> {selectedClub.vibe}</p>
-            <p><strong>Notable DJs:</strong> {selectedClub.djs}</p>
+            <p><strong>Residents:</strong> {selectedClub.djs}</p>
             <a href={selectedClub.link} target="_blank" rel="noopener noreferrer">
               <button>Upcoming Events</button>
             </a>
