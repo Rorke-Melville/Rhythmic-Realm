@@ -1,7 +1,7 @@
 {
   "name": "rhythmic-realm",
   "version": "0.1.0",
-  "homepage": "https://rorke-melville.github.io/Electronic-Beats",
+  "homepage": "https://rorke-melville.github.io/Rhythmic-Realm/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -14,7 +14,7 @@
     "three": "^0.174.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "start": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && react-scripts start",

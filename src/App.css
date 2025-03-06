@@ -33,10 +33,10 @@
   clip-path: polygon(0 0, 0 100%, 0 100%, 0 0); /* Start fully clipped */
   animation: draw 3s ease forwards;
   text-shadow: 
-    -1.5px -1.5px 0 #620075, /* White outline top-left */
-    1.5px -1.5px 0 #620075,  /* White outline top-right */
-    -1.5px 1.5px 0 #620075,  /* White outline bottom-left */
-    1.5px 1.5px 0 #620075,   /* White outline bottom-right */
+    -2px -2px 0 #620075, /* White outline top-left */
+    2px -2px 0 #620075,  /* White outline top-right */
+    -2px 2px 0 #620075,  /* White outline bottom-left */
+    2px 2px 0 #620075,   /* White outline bottom-right */
     /* 3D extrusion shadows */
     2px 2px 0 #800000,  /* Darker red for depth */
     3px 3px 0 #800000,
