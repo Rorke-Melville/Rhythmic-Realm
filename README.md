@@ -1,6 +1,6 @@
 # Rhythmic Realm
 
-Welcome to **Rhythmic Realm**, a funky, neon-soaked web app I whipped up just for kicks! This site’s all about diving into the world of electronic beats with a slick, synthwave-inspired vibe. Think glowing reds (#ff0000), deep purples (#620075), and a dash of retro-futuristic flair.
+Welcome to **Rhythmic Realm**, a funky, neon-soaked web app I whipped up just for kicks! This site’s all about diving into the world of electronic beats with a slick, synthwave-inspired vibe. Think glowing reds (#ff0000), deep purples (#620075), and a dash of retro-futuristic flair. It is not mobile responsive just yet so please view on a PC or laptop. 
 
 ## What It Does
 
