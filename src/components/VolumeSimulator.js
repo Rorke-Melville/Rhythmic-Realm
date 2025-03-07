@@ -18,7 +18,7 @@ function VolumeSimulator() {
         time: 0, // Time since last target change
         changeInterval: Math.random() * 1000 + 1000, // 1-2s to change target
       };
-      speedsRef.current[index] = Math.random() * 0.03 + 0.02; // Faster speed factor (0.02-0.05)
+      speedsRef.current[index] = Math.random() * 0.05 + 0.05; // Faster speed factor (0.02-0.05)
       updateSquares(bar, targetsRef.current[index].current);
     });
 
