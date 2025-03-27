@@ -10,7 +10,7 @@ Rhythmic Realm is your one-stop spot to explore electronic music and club cultur
 - **Festival Recommendations**: Hot picks for electronic music festivals to plan your next rave adventure.
 - **Artist Spotlight**: Shoutouts to dope artists lighting up the scene.
 - **Synth Puzzle Course**: A quirky, interactive way to sign up for courses
-- **Club Recommendations**: A dope 3D globe showcasing top clubs worldwide, complete with vibes and DJ highlights.
+- **Club Recommendations**: A dope 3D globe showcasing top clubs worldwide.
 
 ## Features
 
