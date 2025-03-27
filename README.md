@@ -6,7 +6,7 @@ Welcome to **Rhythmic Realm**, a funky, neon-soaked web app I whipped up just fo
 
 Rhythmic Realm is your one-stop spot to explore electronic music and club culture. Here’s what you’ll find:
 
-- **Recommended Songs**: A curated list of banging tracks with embedded YouTube vibes to get your head nodding.
+- **Recommended Songs**: A curated list of banging tracks with vibes to get your head nodding.
 - **Festival Recommendations**: Hot picks for electronic music festivals to plan your next rave adventure.
 - **Artist Spotlight**: Shoutouts to dope artists lighting up the scene.
 - **Synth Puzzle Course**: A quirky, interactive way to sign up for courses
